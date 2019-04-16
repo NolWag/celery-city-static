@@ -4,8 +4,8 @@ return [
     'production' => false,
     'baseUrl' => 'https://artisan-static-demo.netlify.com',
     'site' => [
-        'title' => 'My Jigsaw Blog',
-        'description' => 'Personal blog of John Doe.',
+        'title' => 'Celery City Media - Digital Marketing',
+        'description' => 'Kalamazoo, MI web agency specializing in Local Search.',
         'image' => 'default-share.png',
     ],
     'owner' => [
