@@ -18,17 +18,3 @@ if (outdated) {
     }
 }
 
-var contact = document.getElementById('contact');
-var work = document.getElementById('work');
-var whatwedo = document.getElementById('whatwedo');
-
-var contentSection = document.getElementById('');
-var formSection = document.getElementById('');
-var whatWeDoSection = document.getElementById('');
-var ourWorkSection = document.getElementById('');
-
-contact.addEventListener('click', function(){
-
-})
-
-

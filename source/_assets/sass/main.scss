@@ -9,11 +9,11 @@ body {
 	margin: 0;
 	overflow: hidden;
 	font-family: 'Montserrat', sans-serif;
-	
 	@media only screen and (max-width: 940px) {
 		overflow: scroll;
 	}
 }
+
 
 .main {
 	display: flex;
@@ -21,9 +21,11 @@ body {
 	
 }
 
+.container {}
+
 .leaf-left {
 	width: 200px;
-	margin-top: 15%;
+	margin-top: 7%;
 	background-repeat: no-repeat;
 	
 	@media only screen and (max-width: 940px) {
@@ -36,7 +38,7 @@ body {
 
 .leaf-right {
 	width: 200px;
-	margin-top: 30%;
+	margin-top: 18%;
 	background-repeat: no-repeat;
 	right: 0;
 	
@@ -63,7 +65,7 @@ body {
 
 .header {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	margin-top: 4em;
 	
 	@media only screen and (max-width: 940px) {
@@ -165,7 +167,7 @@ body {
 .contact-form {
 	display: flex;
 	flex-direction: column;
-	width: 50%;
+	margin-top: 10em;
 }
 
 .contact-input {
@@ -191,4 +193,8 @@ body {
 	background-color: #000;
 	color: #fff;
 	transition: .6s;
+}
+
+.hidden {
+	display: none;
 }

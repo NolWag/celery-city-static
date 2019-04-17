@@ -3,9 +3,7 @@
 @section('title', 'Contact')
 
 @section('content')
-    <h1>Contact</h1>
-    
-    <form action="https://jumprock.co/mail/CeleryCityMedia" method="post">
+    <form  class="contact-form" action="https://jumprock.co/mail/CeleryCityMedia" method="post">
         <div>
             <label for="name">Name</label><br>
             <input type="text" name="name" id="name" required>
@@ -29,6 +27,6 @@
 
         <input type="hidden" name="replyto" value="%email">
 
-        <input type="submit" value="Send">
+        <input class="contact-form-btn" type="submit" value="Send">
     </form>
 @endsection
