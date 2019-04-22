@@ -3,25 +3,25 @@
 @section('title', 'Contact')
 
 @section('content')
-    <form  class="contact-form" action="https://jumprock.co/mail/CeleryCityMedia" method="post">
-        <div>
-            <label for="name">Name</label><br>
-            <input type="text" name="name" id="name" required>
+<div class="contact-section">
+    <form  class="contact-form" name="contact" method="post" data-netlify="true">
+        <div class="row">
+            <input class="contact-input mr-1" placeholder="Name" type="text" name="name" id="name" required>
+            <input class="contact-input" placeholder="Email" type="email" name="email" id="email" required>
         </div>
-
-        <div>
-            <label for="email">Email</label><br>
-            <input type="email" name="email" id="email" required>
-        </div>
-
-        <div>
-            <label for="message">Message</label><br>
-            <textarea name="message" id="message" required></textarea>
+				<div class="row">
+					 <input class="contact-input" placeholder="Business Name" type="text" name="business" id="business" required>
+			</div>
+				<div class="row">
+				 <input class="contact-input" placeholder="Website URL" type="text" name="website" id="website" required>
+			</div>
+        <div class="row">
+            <textarea class="contact-textarea" name="message" id="message" placeholder="Message" required></textarea>
         </div>
 
         <input name="subject" style="display: none;" value="Blog Contact Page">
 
-        <input type="hidden" name="after" value="{{ $page->production ? $page->baseUrl : 'http://localhost:3000' }}/contact/sent">
+        <input contact type="hidden" name="after" value="{{ $page->production ? $page->baseUrl : 'http://localhost:3000' }}/contact/sent">
 
         <input type="text" name="trapit" value="" style="display: none;">
 
@@ -29,4 +29,6 @@
 
         <input class="contact-form-btn" type="submit" value="Send">
     </form>
+    </div>
+
 @endsection
