@@ -3,8 +3,6 @@
 @section('content')
 	
 	<!--- Content Section --->
-	<div class="content-section" id="contentSection">
-		<div class="callout-container">
 			<div class="callout-section">
 				<h1 class="main-callout">We help small businesses improve their<br/> local search ranking with Google.</h1>
 				<div class="btn-section">
@@ -12,7 +10,5 @@
 					<a href=""><div class="btn btn-green">Free Quote</div></a>
 			    </div>
 			</div>
-		</div>
-	</div>
 	
 @endsection

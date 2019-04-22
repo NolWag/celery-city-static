@@ -21,8 +21,6 @@ body {
 	
 }
 
-.container {}
-
 .leaf-left {
 	width: 200px;
 	margin-top: 7%;
@@ -47,13 +45,6 @@ body {
 		z-index: -10;
 		width: 130px;
 	}
-}
-
-.content-section, .form-section {
-	min-width: 66%;
-	display: flex;
-    flex-direction: column;
-
 }
 
 .form-section {
@@ -96,7 +87,7 @@ body {
 	padding: .5em 1em;
 }
 
-.callout-container {
+.container {
 	height: 80vh; 
 	display: flex; 
 	align-items: center; 
@@ -162,11 +153,6 @@ body {
 	background-color: #000;
 	color: #fff;
 	transition: .6s;
-}
-
-.WhatWeDo-Section, .OurWork-Section, .contact-section {
-	margin-top: 8em;	
-	width: 100%;
 }
 
 .WhatWeDo-Section h3 {
