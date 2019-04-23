@@ -175,9 +175,15 @@ body {
 	line-height: 3em;
 }
 
+// Same positioning as regular section - needed mobile margin
+
 .gallery-section {
-	// Same positioning as regular section - needed mobile margin
-	margin-top: 25em;
+	margin-top: 0em;
+	
+	@media only screen and (max-width: 940px) {
+		margin-top: 25em;
+	}
+
 }
 
 .gallery-grid {
