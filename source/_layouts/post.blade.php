@@ -3,7 +3,7 @@
 @section('title', $page->title)
 
 @section('content')
-    <div>
+    <div class="section">
     <h1>{{ $page->title }}</h1>
 
     {{-- I know inline CSS isn't good, but this is just a template so you should change everything anyway --}}
