@@ -14,10 +14,10 @@
 					 <input class="contact-input" placeholder="Business Name" type="text" name="business" id="business" required>
 			</div>
 				<div class="row">
-				 <input class="contact-input" placeholder="Website URL" type="text" name="website" id="website" required>
+				 <input class="contact-input" placeholder="Website URL" type="text" name="website" id="website">
 			</div>
         <div class="row">
-            <textarea class="contact-textarea" name="message" id="message" placeholder="Message" required></textarea>
+            <textarea class="contact-textarea" name="message" id="message" placeholder="Message"></textarea>
         </div>
 
         <input name="subject" style="display: none;" value="Blog Contact Page">
