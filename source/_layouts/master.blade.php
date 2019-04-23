@@ -20,7 +20,8 @@
 		<a href="/"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/529582/Celery%20City%20Media%20Logo.png" class="logo" /></a>
 		<div class="nav">
 			<a href="/what-we-do"><div class="nav-item">What We Do</div></a>
-			<a href="/our-work"><div class="nav-item">Our Work</div></a>
+            <a href="/our-work"><div class="nav-item">Our Work</div></a>
+            <a href="/posts"><div class="nav-item">Blog</div></a>
 			<a href="/contact"><div class="nav-item">Contact</div></a>
 		</div>
 	</div>
