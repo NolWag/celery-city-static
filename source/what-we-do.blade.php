@@ -3,7 +3,7 @@
 @section('title', 'What We Do')
 
 @section('content')
-    <div class="WhatWeDo-Section">
+    <div class="section">
     <h1>What We Do</h1>
 
     <h3>Your business is searching for new customers.</h3>

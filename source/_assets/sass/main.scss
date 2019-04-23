@@ -19,7 +19,16 @@ body {
 	display: flex;
 	justify-content: space-between;
 	
+	@media only screen and (max-width: 940px) {
+		flex-direction: column;
+	}
 }
+
+.section {
+	margin: 0 2em;
+}
+
+
 
 .leaf-left {
 	width: 200px;
@@ -92,10 +101,9 @@ body {
 	display: flex; 
 	align-items: center; 
 	justify-content: center;
-}
 
-.callout-section {
-    padding: 5em;
+	@media only screen and (max-width: 940px) {
+	}
 }
 
 .main-callout {
@@ -155,6 +163,10 @@ body {
 	transition: .6s;
 }
 
+.btn-small {
+	padding: .3em 0em;
+}
+
 .WhatWeDo-Section h3 {
 	line-height: 3em;
 }
@@ -162,13 +174,32 @@ body {
 .gallery-grid {
 	display: flex;
 	flex-wrap: wrap;
+
+	@media only screen and (max-width: 940px) {
+		align-items: center;
+		flex-direction: column;
+	}
 }
 
 .gallery-grid .item {
 	height: 200px;
 	border: 1px solid #000;
-	width: 200px;
-	margin: 2em;
+	margin: 2em 2em 0 2em;
+}
+
+.item-container {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-name {
+	text-align: center;
+}
+
+.item-description {
+	text-align: center;
+	margin-top: 0;
 }
 
 .contact-form {
@@ -230,7 +261,6 @@ textarea::placeholder {
 .mr-1 {
 	margin-right: 1em;
 }
-
 
 .post-list {
 	overflow-y: scroll; 

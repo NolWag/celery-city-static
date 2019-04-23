@@ -3,7 +3,7 @@
 @section('title', 'Contact')
 
 @section('content')
-<div class="contact-section">
+<div class="section">
     <form  class="contact-form" name="contact" method="post" data-netlify="true">
         <div class="row">
             <input class="contact-input mr-1" placeholder="Name" type="text" name="name" id="name" required>
