@@ -4,12 +4,12 @@ return [
     'production' => false,
     'baseUrl' => 'https://artisan-static-demo.netlify.com',
     'site' => [
-        'title' => 'Celery City Media - Digital Marketing',
+        'title' => 'Celery City Media - Digital Marketing Agency',
         'description' => 'Kalamazoo, MI web agency specializing in Local Search.',
         'image' => 'default-share.png',
     ],
     'owner' => [
-        'name' => 'John Doe',
+        'name' => 'Celery City Media',
         'twitter' => 'johndoe',
         'github' => 'johndoe',
     ],
