@@ -39,7 +39,7 @@
 </svg>
 </div>
 
-    <div class="container">
+    <div>
 
             @yield('content')
     

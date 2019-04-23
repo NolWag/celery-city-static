@@ -3,6 +3,7 @@
 @section('title', 'Contact')
 
 @section('content')
+<div class="container">
 <div class="section">
     <form  class="contact-form" name="contact" method="post" data-netlify="true">
         <div class="row">
@@ -30,5 +31,6 @@
         <input class="contact-form-btn" type="submit" value="Send">
     </form>
     </div>
+</div>
 
 @endsection

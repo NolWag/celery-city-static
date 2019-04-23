@@ -3,6 +3,7 @@
 @section('content')
 	
 	<!--- Content Section --->
+	<div class="container">
 			<div class="section">
 				<h1 class="main-callout">We help small businesses improve their<br/> local search ranking with Google.</h1>
 				<div class="btn-section">
@@ -10,5 +11,6 @@
 					<a href="/contact"><div class="btn btn-green">Free Quote</div></a>
 			    </div>
 			</div>
+</div>
 	
 @endsection
