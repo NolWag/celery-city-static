@@ -13,7 +13,7 @@
     @include('_partials.head.favicon')
     @include('_partials.head.meta')
     @include('_partials.cms.identity_widget')
-
+    <meta name="google-site-verification" content="0TfiOGsPnqbAtsCnCVK8Q8Czi54IghYtygW_WW3S3yc" />
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
 </head>
 <div class="header">
