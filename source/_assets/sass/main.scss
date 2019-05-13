@@ -28,6 +28,7 @@ p, span, h1, h2, h3, h4, h5, div {
 // Standard for positioning
 .section {
 	margin: 0 2em;
+
 }
 
 
@@ -102,6 +103,7 @@ p, span, h1, h2, h3, h4, h5, div {
 	justify-content: center;
 
 	@media only screen and (max-width: 940px) {
+		height: 100%;
 	}
 }
 
@@ -184,11 +186,6 @@ p, span, h1, h2, h3, h4, h5, div {
 
 .gallery-section {
 	margin-top: 0em;
-
-	@media only screen and (max-width: 1250px) {
-		margin-top: 25em;
-	}
-
 }
 
 .gallery-grid {
