@@ -17,7 +17,7 @@
 				 <input class="contact-input" placeholder="Website URL" type="text" name="website" id="website">
 			</div>
         <div class="row">
-            <textarea class="contact-textarea" name="message" id="message" placeholder="Message"></textarea>
+            <textarea class="contact-textarea" name="message" id="message" placeholder="Message" required></textarea>
         </div>
 
         <input name="subject" style="display: none;" value="Blog Contact Page">
