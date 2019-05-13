@@ -4,8 +4,8 @@ return [
     'production' => false,
     'baseUrl' => 'https://artisan-static-demo.netlify.com',
     'site' => [
-        'title' => 'Celery City Media - Digital Marketing Agency',
-        'description' => 'Kalamazoo, MI web agency specializing in Local Search.',
+        'title' => 'Celery City Media - Kalamazoo, MI - Digital Marketing Agency',
+        'description' => 'We help small, local businesses improve their local search ranking with Google.',
         'image' => 'default-share.png',
     ],
     'owner' => [
